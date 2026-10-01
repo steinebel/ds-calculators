@@ -27,7 +27,7 @@ const PRESETS = {
   6: ["windowWall", "doorWall", "ceiling", "backRight", "backLeft", "floor"],
 };
 
-const VIDEO_URL = "https://www.youtube.com/results?search_query=VideoSantehnik+выбор+радиатора";
+const VIDEO_URL = "https://youtu.be/-jX_0uS3DHs";
 
 /* ── Isometric room SVG ── */
 function IsometricRoom({ coldFaces, onToggleFace }) {
