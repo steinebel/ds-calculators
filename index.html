@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькуляторы — Добродушный Сантехник</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,700&display=swap" rel="stylesheet" />
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { min-height: 100vh; background: #1a1714; color: #f0ebe4; font-family: 'Literata', Georgia, serif; display: flex; flex-direction: column; align-items: center; padding: 48px 16px; }
+      .brand { font-size: 13px; letter-spacing: 3px; text-transform: uppercase; color: #c0392b; font-weight: 700; margin-bottom: 8px; }
+      h1 { font-size: clamp(22px, 5vw, 30px); margin-bottom: 28px; }
+      ul { list-style: none; width: 100%; max-width: 520px; display: flex; flex-direction: column; gap: 12px; }
+      a, .soon { display: block; padding: 18px 20px; background: #211e19; border: 1px solid #3a3530; border-radius: 12px; color: #f0ebe4; text-decoration: none; transition: border-color 0.2s; }
+      a:hover { border-color: #c0392b; }
+      .soon { color: #5a5348; }
+      small { display: block; margin-top: 4px; font-size: 13px; color: #a09888; }
+      .soon small { color: #5a5348; }
+    </style>
+  </head>
+  <body>
+    <div class="brand">Добродушный Сантехник</div>
+    <h1>Калькуляторы</h1>
+    <ul>
+      <li><a href="teplo/">Теплокалькулятор<small>Мощность радиатора для помещения</small></a></li>
+      <li><div class="soon">Сигма-калькулятор<small>Срок жизни полимерных труб — скоро</small></div></li>
+      <li><div class="soon">Калькулятор ГВС<small>Стоимость горячей воды — скоро</small></div></li>
+    </ul>
+  </body>
+</html>
